@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}}</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <h1>{{HEADER_TITLE}}</h1>
+        <p>{{SUB_HEADER}}</p>
+    </header>
+
+    <main>
+        <div class="report-container">
+            <h2>【本週趨勢概覽】</h2>
+            <div class="trend-section">
+                <p>{{TREND_CONTENT}}</p>
+            </div>
+
+            <h2>【Top N 個可實作機會】</h2>
+            {{OPPORTUNITY_CARDS}}
+
+            <h2>【風險與預測】</h2>
+            <div class="trend-section">
+                <p>{{RISK_CONTENT}}</p>
+                <p>{{PREDICTION_CONTENT}}</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><a href="../index.html">← 回到首頁</a></p>
+        <p>&copy; {{YEAR}} 盈利機會分析師 - 由 OpenClaw 自動生成</p>
+    </footer>
+</body>
+</html>
